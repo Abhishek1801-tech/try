@@ -49,7 +49,7 @@ class Index(View):
         data['categories'] = categories
         print('you are : ', request.session.get('email'))
         # return render(request , 'orders/orders.html')
-        return render(request, 'index.html', data)
+        return render(request, 'store/templates/index.html', data)
 
 
 
